@@ -17,17 +17,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Jumbotron -->
-    <header class="bg-primary text-white text-center py-5">
+    <header class="bg-primary text-white text-center py-5" id="home">
         <div class="container">
             <h1>Welcome to My App</h1>
             <p class="lead">Discover cutting-edge features to simplify your life</p>
@@ -41,30 +41,30 @@
     </section>
 
     <!-- Features -->
-    <section class="container mt-5">
+    <section class="container mt-5" id="features">
         <h2 class="text-center mb-4">Key Features</h2>
         <div class="row text-center">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="R.jpeg" class="card-img-top" alt="Feature 1" height="120px">
+            <div class="col-md-4 mb-5">
+                <div class="card bg-primary">
+                    <img src="R.jpeg" class="card-img-top" alt="Feature 1" height="300px" width="300px">
                     <div class="card-body">
                         <h5 class="card-title">Intuitive Interface</h5>
                         <p class="card-text">Designed for effortless navigation and a user-friendly experience.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="logo.png" class="card-img-top" alt="Feature 2" height="120px">
+            <div class="col-md-4 mb-5">
+                <div class="card bg-primary">
+                    <img src="logo.png" class="card-img-top bg-danger" alt="Feature 2" height="300px" width="300px">
                     <div class="card-body">
                         <h5 class="card-title">Top-Notch Security</h5>
                         <p class="card-text">State-of-the-art encryption ensures your data stays safe.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="lightning-speed.jpg" class="card-img-top" alt="Feature 3" height="120px">
+            <div class="col-md-4 mb-5">
+                <div class="card bg-primary">
+                    <img src="lightning-speed.jpg" class="card-img-top" alt="Feature 3" height="300px" width="300px">
                     <div class="card-body">
                         <h5 class="card-title">Lightning-Fast</h5>
                         <p class="card-text">Optimized speed and responsiveness, making everything seamless.</p>
@@ -75,9 +75,9 @@
     </section>
 
     <!-- Testimonials -->
-    <section class="container mt-5">
-        <h2 class="text-center mb-4">What Users Say</h2>
-        <div class="row text-center">
+    <section class="container mt-5" id="testimonials">
+        <h2 class="text-center mb-5">What Users Say</h2>
+        <div class="row text-center mb-5">
             <div class="col-md-6">
                 <blockquote class="blockquote">
                     <p>"This app changed the way I work—fast, efficient, and beautifully designed!"</p>
@@ -94,7 +94,7 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="text-center p-5 bg-dark text-white">
+    <section class="text-center p-5 bg-dark text-white" id="contact">
         <h2>Get Started Today</h2>
         <p>Download now and revolutionize the way you use apps!</p>
         <a href="#" class="btn btn-primary">Download Now</a>
